@@ -1,0 +1,5 @@
+a=int(input("Enter value of perpendicular : "))
+b=int(input("Enter value of base :"))
+#c=int(input("Enter value of hypothanous :"))
+c=((a**2)+(b**2))
+print(c)
