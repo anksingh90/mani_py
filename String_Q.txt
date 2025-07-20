@@ -1,0 +1,5 @@
+Write a program to count the number of times a character (ask from user) occurs in the given string.
+Write a program which replaces all vowels in the string with '*'.
+Write a program to input a string from the user and print it in the reverse order without creating a new string using loop.
+Write a program to check if a string is a palindrome or not. (A string is called palindrome if it reads same backwards as forward. For example, Kanak is a palindrome.)
+Write a program which takes two parameters : one is a string and other is a character. Create a new string aer deleting all occurrences of the character from the string and return the new string. 
