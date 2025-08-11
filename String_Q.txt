@@ -59,3 +59,23 @@ output as complete name
 	#4. mixedFraction()display a mixed fraction only when the fraction
 		#does not evaluate to a whole number.
 
+
+
+8. Task:
+
+Write a Python program that performs the following tasks:
+
+1. Asks the user to enter the number of students in a class.
+
+
+2. Accepts the marks of each student and stores them in a list.
+
+
+3. Prints the entered marks of all students.
+
+
+4. Asks the user to delete the marks of a specific student by entering the student number.
+
+
+5. After deleting the marks, prints the updated list of marks.
+
