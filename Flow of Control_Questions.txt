@@ -1,1 +1,6 @@
-Question Bank
+NCERT Question Bank - Flow of Control
+
+1. What is the difference between *else* and *elif* construct of if statement?
+2. What is the purpose of *range()* function? Give one example.
+3. Differentiate between break and continue statements using examples.
+4. What is an *infinite loop* ? Give one example.
