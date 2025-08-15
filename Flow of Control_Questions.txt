@@ -76,10 +76,5 @@ NCERT Question Bank - Flow of Control
             1 2
             1
 
-(v)
-                    1
-                  2 1 2
-                3 2 1 2 3
-              4 3 2 1 2 3 4
-            5 4 3 2 1 2 3 4 5
+(v).       5 4 3 2 1 2 3 4 5
 
