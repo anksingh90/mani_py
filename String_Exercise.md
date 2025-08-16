@@ -1,16 +1,16 @@
-**1.** Consider the following string mySubject:
- *mySubject = "Computer Science"*
- What will be the output of the following string operations :
-  *i. print(mySubject[0:len(mySubject)])
-  ii. print(mySubject[-7:-1])
-  iii. print(mySubject[::2])
-  iv. print(mySubject[len(mySubject)-1])
-  v. print(2*mySubject)
-  vi. print(mySubject[::-2])
-  vii. print(mySubject[:3] + mySubject[3:])
-  viii. print(mySubject.swapcase())
-  ix. print(mySubject.startswith('Comp'))
-  x. print(mySubject.isalpha()) *
+**1.** Consider the following string mySubject:  
+ *mySubject = "Computer Science"*  
+ What will be the output of the following string operations :  
+  *i. print(mySubject[0:len(mySubject)])  
+  ii. print(mySubject[-7:-1])  
+  iii. print(mySubject[::2])  
+  iv. print(mySubject[len(mySubject)-1])  
+  v. print(2*mySubject)  
+  vi. print(mySubject[::-2])  
+  vii. print(mySubject[:3] + mySubject[3:])  
+  viii. print(mySubject.swapcase())  
+  ix. print(mySubject.startswith('Comp'))  
+  x. print(mySubject.isalpha()) *  
 
 **2.** Consider the following string myAddress:
    *myAddress = "WZ-1,New Ganga Nagar,New Delhi"*
