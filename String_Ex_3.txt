@@ -1,4 +1,18 @@
+Exercise
+
 1. The formula E = mc2 states that the equivalent energy (E) can be calculated as the mass (m) multiplied by the speed of light (c = about 3×108 m/s) squared.  
 Write a program that accepts the mass of an object and determines its equivalent energy.
+
 2. Write a program to calculate in how many days a work will be completed by three persons A, B and C together.  
-A, B, C take x days, y days and z days respectively to do the job alone. The formula to calculate the number of days if they work together is xyz/(xy + yz + xz) days where x, y, and z are given as input to the program.
+A, B, C take x days, y days and z days respectively to do the job alone. The formula to calculate the number of days if they work together is xyz/(xy + yz + xz) 
+days where x, y, and z are given as input to the program.
+
+3. Write a program to print the grade of 20 students when grades are allocated as given in the table below. Percentage of the marks obtained by the 20 
+students is the input to the program.
+Percentage of Marks      Grade
+Above 90%                  A
+80% to 90%                 B
+70% to 80%                 C
+60% to 70%                 D
+Below 60%                  E
+
