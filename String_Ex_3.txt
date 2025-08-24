@@ -16,3 +16,13 @@ Above 90%                  A
 60% to 70%                 D
 Below 60%                  E
 
+4.  Write a python program to enter a string from the user and perform the following tasks and print the result after all operations:
+Count the number of alphabets present in the string
+Count the number of vowels present in the string
+Count the number of spaces present in the string
+
+5. L= [11,34,56,23,67,78] is a list in python. Write a python program to :-
+(i)     to remove 78 from the list.
+(ii)    to insert 89 after 23 in the given list.
+(iii)   to clear the contents of the list
+(iv)    to sort the contents of the list in ascending order.
