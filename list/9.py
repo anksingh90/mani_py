@@ -12,21 +12,6 @@ def sum(num1):
    num2=num1+5
    print(id(num2))
 
-
-
-
-
-
 num1=5
 print(id(num1))
-
-
 sum(num1)
-
-
-
-
-
-
-
-
