@@ -132,6 +132,44 @@ list2 = list1[:]
 list2 = list(list1)
 ```
 
+## 7. Practice Questions
+
+### Question 1: Menu Driven List Operations
+Write a menu driven program to perform various list operations, such as:
+- Append an element
+- Insert an element
+- Append a list to the given list
+- Modify an existing element
+- Delete an existing element from its position
+- Delete an existing element with a given value
+- Sort the list in ascending order
+- Sort the list in descending order
+- Display the list
+
+### Question 2: Calculate Average Marks
+Write a program to calculate average marks of n students using a function where n is entered by the user.
+
+### Question 3: Search Element in List
+Write a user-defined function to check if a number is present in the list or not. If the number is present, return the position of the number. Print an appropriate message if the number is not present in the list.
+
+### Question 4: Student Record Operations
+The record of a student (Name, Roll No., Marks in five subjects and percentage of marks) is stored in the following list:
+```python
+stRecord = ['Raman', 'A-36', 56, 98, 99, 72, 69, 78.8]
+```
+Write Python statements to retrieve the following information from the list stRecord:
+a) Percentage of the student
+b) Marks in the fifth subject
+c) Maximum marks of the student
+d) Roll no. of the student
+e) Change the name of the student from 'Raman' to 'Raghav'
+
+### Question 5: Find Median
+Write a program to read a list of n integers and find their median.
+
+### Question 6: Remove Duplicates
+Write a program to read a list of elements. Modify this list so that it does not contain any duplicate elements, i.e., all elements occurring multiple times in the list should appear only once.
+
 
 
 
