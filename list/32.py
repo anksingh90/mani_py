@@ -3,7 +3,7 @@
 # incert new values (lst.insert (pos,value))
 # append an element
 # modify/edit the existing value delete an exsting value from position (lst.pop(pos)) lst2=st1.posvalue,print(lst2)
-# delete an exsting value from given value(lst.remove(value)) 
+# delete an exsting value from given value(lst.remove(value))
 # sort the arry in ascending/decending order (lst.sort()),print(lst),(lst.sort(-1)==2),print(lst)
 
 lst=[]
