@@ -170,6 +170,63 @@ Write a program to read a list of n integers and find their median.
 ### Question 6: Remove Duplicates
 Write a program to read a list of elements. Modify this list so that it does not contain any duplicate elements, i.e., all elements occurring multiple times in the list should appear only once.
 
+### Question 7: Count Number Occurrences
+Write a Python script to input a number and count the occurrences of that number in a given list.
+```python
+list1 = [10, 20, 30, 40, 10, 50, 10]
+```
+
+### Question 8: Split Temperature List
+The temperature of a week is given in WTemp list in the form of days and their temperature values:
+```python
+WTemp = ['Mon', 45, 'Tue', 43, 'Wed', 42, 'Thu', 40, 'Fri', 38, 'Sat', 40, 'Sun', 38]
+```
+Write a program to create and print two separate lists as given below:
+```python
+Days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+Degrees = [45, 43, 42, 40, 38, 40, 38]
+```
+
+### Question 9: Unique and Duplicate Items
+Write a program to display unique and duplicate items of a given list into two different lists.
+```python
+Input: L1 = [2, 7, 1, 4, 9, 5, 1, 4, 3]
+Output: 
+Unique items: [2, 7, 1, 4, 9, 5, 3]
+Duplicate items: [1, 4]
+```
+
+### Question 10: Exchange List Halves
+Write a program to exchange first-half elements of list with second-half elements assuming list is having even number of elements.
+
+### Question 11: Filter Strings Starting with 'A'
+Write a program in Python to display those strings which are starting with character 'A' or 'a' from the given list L.
+```python
+L = ["RINKU", "AUSHIM", "VIJAYA", "AKHTAR", "LEENA", "TARUN", "AMAR"]
+```
+
+### Question 12: Advanced List Operations
+Write a menu-driven program to do the various list operations:
+- Sort list in ascending order using bubble sort
+- Sort list in descending order using Insertion sort
+- Search an element
+- Count an element
+- Display list
+
+### Question 13: Banking System
+Create a menu-driven banking system program with the following operations:
+- Open a savings bank account
+- Add a customer
+- Deposit money
+- Display sorted records
+- Close/delete account
+
+The program should:
+1. Accept choices for Deposit and Withdrawal
+2. Accept transaction amount
+3. Perform the transaction
+4. Display the balance
+
 
 
 
