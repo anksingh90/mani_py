@@ -4,7 +4,15 @@ This repository contains various Python programming exercises and tutorials focu
 
 ## 📚 Contents
 
-### 1. List Operations
+### 1. Flow Control
+- Conditional statements (if-else, elif)
+- Loops and iterations
+- Control statements (break, continue)
+- Pattern programming
+- Practice exercises
+[Learn more](Flow%20of%20Control_Questions.md)
+
+### 2. List Operations
 - Basic list operations and methods
 - List traversal and slicing
 - Nested lists
@@ -12,7 +20,7 @@ This repository contains various Python programming exercises and tutorials focu
 - Practice exercises
 [Learn more](List.md)
 
-### 2. String Operations (Exercise Set 1)
+### 3. String Operations (Exercise Set 1)
 - Character manipulation
 - String reversal
 - Palindrome checking
@@ -20,7 +28,7 @@ This repository contains various Python programming exercises and tutorials focu
 - Student marks management
 [Learn more](String_Ex_1.md)
 
-### 3. String Operations (Exercise Set 3)
+### 4. String Operations (Exercise Set 3)
 - Energy calculator (E = mc²)
 - Work completion calculator
 - Grade calculation system
@@ -29,6 +37,14 @@ This repository contains various Python programming exercises and tutorials focu
 [Learn more](String_Ex_3.md)
 
 ## 🎯 Practice Questions
+
+### Flow Control Exercises
+- Output prediction problems
+- Pattern printing challenges
+- Number sequence generation
+- Mathematical series
+- Palindrome checking
+- Leap year verification
 
 ### List Operations
 - Menu driven list operations
@@ -75,10 +91,11 @@ python filename.py
 ## 📝 File Structure
 ```
 mani_py/
-├── List.md           # List operations tutorial
-├── String_Ex_1.md    # String exercises set 1
-├── String_Ex_3.md    # String exercises set 3
-└── README.md         # Project documentation
+├── Flow of Control_Questions.md  # Flow control exercises
+├── List.md                      # List operations tutorial
+├── String_Ex_1.md              # String exercises set 1
+├── String_Ex_3.md              # String exercises set 3
+└── README.md                   # Project documentation
 ```
 
 ## 🤝 Contributing
