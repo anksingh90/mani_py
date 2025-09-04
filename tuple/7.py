@@ -1,0 +1,5 @@
+a=(1,2,3,4)
+tup=tuple(a)
+print(min(tup))
+print(max(tup))
+print(sum(tup))

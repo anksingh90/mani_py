@@ -132,7 +132,7 @@ list2 = list1[:]
 list2 = list(list1)
 ```
 
-## 7. Practice Questions
+## 7. Practice Programming Exercises : List - Ex 1 🚀
 
 ### Question 1: Menu Driven List Operations
 Write a menu driven program to perform various list operations, such as:

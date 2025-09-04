@@ -1,4 +1,4 @@
-# 🐍 Python String Exercises
+# 🐍 Python String Exercises : String - Ex 2 🚀
 
 > A comprehensive collection of string manipulation exercises to master Python string operations
 
