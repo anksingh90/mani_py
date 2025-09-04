@@ -9,32 +9,42 @@ This repository contains various Python programming exercises and tutorials focu
 - Loops and iterations
 - Control statements (break, continue)
 - Pattern programming
-- Practice exercises
-[Learn more](Flow%20of%20Control_Questions.md)
+[Learn more](01_flow_control.md)
 
 ### 2. List Operations
-- Basic list operations and methods
-- List traversal and slicing
-- Nested lists
+- Basic List Operations: [Learn more](02_list_basics.md)
+- Advanced List Operations: [Learn more](02_list_advanced.md)
 - List comprehension
-- Practice exercises
-[Learn more](List.md)
+- Nested lists
 
-### 3. String Operations (Exercise Set 1)
-- Character manipulation
-- String reversal
-- Palindrome checking
-- Function programming basics
-- Student marks management
-[Learn more](String_Ex_1.md)
+### 3. String Operations
+- Basic String Operations: [Learn more](03_string_basics.md)
+- Intermediate String Operations: [Learn more](03_string_intermediate.md)
+- Advanced String Operations: [Learn more](04_string_advanced.md)
 
-### 4. String Operations (Exercise Set 3)
-- Energy calculator (E = mc²)
-- Work completion calculator
-- Grade calculation system
-- String analysis tools
-- Advanced list operations
-[Learn more](String_Ex_3.md)
+## 📂 Repository Structure
+```
+root/
+├── exercises/
+│   ├── pdfs/
+│   │   ├── Chp 8 _ Lists.pdf
+│   │   └── flow of control.pdf
+│   └── topics/
+│       ├── if_else/
+│       ├── for_loop/
+│       ├── while_loop/
+│       ├── function/
+│       ├── string/
+│       ├── list/
+│       └── tuple/
+├── 01_flow_control.md
+├── 02_list_basics.md
+├── 02_list_advanced.md
+├── 03_string_basics.md
+├── 03_string_intermediate.md
+├── 04_string_advanced.md
+└── README.md
+```
 
 ## 🎯 Practice Questions
 
