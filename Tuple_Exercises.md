@@ -24,3 +24,5 @@ the email IDs. Print all three tuples at the end of the program. [Hint: You may 
 
 Q6 : Write a program to input names of n students and store them in a tuple. Also, input a name from the
 user and find if this student is present in the tuple or not.
+
+
