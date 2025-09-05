@@ -5,5 +5,3 @@ for i in tup:
     if i not in lst:
         print("value:",i,"is",tup.count(i),"times")
         lst.append(i)
-
-
