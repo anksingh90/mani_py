@@ -12,7 +12,7 @@ Here’s a clean and well-structured **Markdown file** for the new set of exerci
 2. **Display** → Display name, total marks, and average of all students.
 3. **Search** → Accept name and display details if found, otherwise show *Not Found*.
 4. **Merit List** → Display students with average marks above 74.
-
+List of data
 ---
 
 ## 🔹 Q2: Phonebook Dictionary
