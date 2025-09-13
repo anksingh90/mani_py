@@ -79,6 +79,18 @@ L = [11, 23, 34, 56, 67, 89]
 L = []
 ```
 
+## 6. Write a program to check whether the string is a palindrome or not
+
+## 7. Write a program that reads a line, then counts words and displays how many words are there in the line.
+
+## 8. Write a program that reads a sting and then prints a string that capializes every other letter in the string. eg. school becomes sChOoL.
+
+## 9. Write a program that reads a line then counts how man times a substring 'is/ appears in the line and displays the count.
+
+```python
+'Life is what it is. Knowledge is what is. This is a test. Love is what is.'
+```
+
 ## Tips 💡
 - Use appropriate data types for inputs
 - Include error handling
