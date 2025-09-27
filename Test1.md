@@ -2,12 +2,22 @@
 
 ## Exercise 1
 Write a Python program to count the number of digits, letters, and special characters in a given string.
+```python
+Hello123!@#World
+```
 
 ## Exercise 2
 Write a Python program to check if a given string is a palindrome.
+```python
+kanak
+```
 
 ## Exercise 3
 Write a menu-driven program to perform operations on a list:
+```python
+lst=[99, 10, 37, 25, 42]
+```
+
 - **a)** Display list
 - **b)** Add element
 - **c)** Delete element
@@ -16,9 +26,12 @@ Write a menu-driven program to perform operations on a list:
 
 ## Exercise 4
 Write a program and perform these actions:
+```python
+str = 'The quick brown fox jumps over the lazy sleeping dog outside in the bright warm sunshine every morning'
+```
 - Ask user to enter a string
 - **a)** Convert words to a list
-- **b)** Count occurrences of the word 'is' in the list
+- **b)** Count occurrences of the word 'in' in the list
 - **c)** Reverse the list
 - **d)** Clear all items from the list
 
