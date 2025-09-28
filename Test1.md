@@ -71,3 +71,13 @@ Write a program to separate the character and numeric values from a given list a
 ```python
 A = [1, 'f', 2, 'b', 3, 4, 'h', 'j', 6, 9, 0, 'k']
 ```
+
+## Exercise 10
+Append both list.
+
+**Given list:**
+```python
+n_lst = [['Peter', 'Brown'], ['Thomas', 'Black'], ['Andy', 'Green']]
+age = [33, 35, 28]
+Output - [['Peter', 'Brown', 33], ['Thomas', 'Black', 35], ['Andy', 'Green', 28]]
+```
