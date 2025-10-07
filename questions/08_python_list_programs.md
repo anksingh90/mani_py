@@ -7,6 +7,10 @@ Given `lst = [10, 'fun', 20, 'World', 30, 'home']`, create a new list where numb
 
 ## 2. Element Interchange
 Write a program to interchange first and last elements in a list.
+Write a program to interchange 2nd and 2nd last elements in a list.
+```python
+my_list = [1, 2, 3, 4, 5, 6, 7]
+```
 
 ---
 
