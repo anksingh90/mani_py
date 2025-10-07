@@ -1,16 +1,5 @@
 .
-├── [2.3K]  01_flow_control.md
-├── [2.2K]  02_list_advanced.md
-├── [6.1K]  02_list_basics.md
-├── [3.0K]  03_string_basics.md
-├── [5.2K]  03_string_intermediate.md
-├── [2.3K]  04_string_advanced.md
-├── [5.7K]  05_tuple_exercises.md
-├── [1.8K]  06_tuple_exercises.md
-├── [1.7K]  07_dictionary_exercise.md
-├── [2.4K]  07_dictionary_exercise_updated.md
 ├── [3.1K]  README.md
-├── [2.4K]  Test1.md
 ├── [4.0K]  chp1
 │   ├── [ 158]  1.py
 │   ├── [ 103]  10.py
@@ -175,6 +164,17 @@
 │           └── [1.8K]  07_Menu_Arithmetic_Operation.py
 ├── [   0]  file_structure.txt
 ├── [4.0K]  questions
+│   ├── [2.3K]  01_flow_control.md
+│   ├── [2.2K]  02_list_advanced.md
+│   ├── [6.1K]  02_list_basics.md
+│   ├── [3.0K]  03_string_basics.md
+│   ├── [5.2K]  03_string_intermediate.md
+│   ├── [2.3K]  04_string_advanced.md
+│   ├── [5.7K]  05_tuple_exercises.md
+│   ├── [1.8K]  06_tuple_exercises.md
+│   ├── [1.7K]  07_dictionary_exercise.md
+│   ├── [2.4K]  07_dictionary_exercise_updated.md
+│   └── [2.4K]  Test1.md
 ├── [4.0K]  test
 │   ├── [  98]  1.py
 │   ├── [  50]  2.py
