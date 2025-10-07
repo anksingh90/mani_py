@@ -1,7 +1,7 @@
 # Python List Programs
 
 ## 1. List with Their Cube
-Given `lst = [10, 'fun', 20]`, create a new list where numbers are replaced with their cubes.
+Given `lst = [10, 'fun', 20, 'World', 30, 'home']`, create a new list where numbers are replaced with their cubes.
 
 ---
 
