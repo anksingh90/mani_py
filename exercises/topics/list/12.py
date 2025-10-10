@@ -4,13 +4,6 @@
 def sum(a,b):
     sum=a+b
     print(sum)
-
-
-
-
-
-
-
 a=input("Enter your first name")
 b=input("Enter your last name")
 
