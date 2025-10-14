@@ -1,4 +1,4 @@
-lst=[1,2,3,4,5]
+lst=[1,2,3,4]
 
 mid_val = int((len(lst)/2))
 for i in range(mid_val):
