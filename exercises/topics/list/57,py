@@ -1,0 +1,14 @@
+print("press1 to input a list")
+print("press2 to delete an element from list")
+lst=[]
+ch=int(input("Enter your choice"))
+if ch==1:
+    # multiple values to be inputed for list
+    val=input("Enter value : ")
+    lst.append(val)
+
+elif ch==2:
+    # print list first !!
+    lst1=int(input("Enter an element to remove from a list"))
+    list.remove(lst1)
+    print("updated list",lst1)

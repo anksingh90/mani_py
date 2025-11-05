@@ -6,6 +6,7 @@
 # 4. merit list display avg marks 70+,name
 num=int(input("Enter total number of students : "))
 stu = ()
+stu1 = ()
 for i in range(1, num+1):
     name = input("Enter name of student : ")
     t_marks=int(input("Enter total marks of each student for all subjects (Out of 500) : "))
@@ -14,11 +15,26 @@ for i in range(1, num+1):
         result = 'Pass'
     else:
         result = 'Fail'
-    stu = stu + (name,t_marks,avg_marks,result,)
+    stu = (name,t_marks,avg_marks,result,)
+    stu1 = stu1 + (stu,)
+
+
+print(stu1)
 print("1.result") 
 print("2.display") 
 print("3.search")  
 print("4.merit list")
 ch=int(input("Enter your choice"))
 if ch==1:
-    print("name",)
+    print(stu)
+elif ch==2:
+    print("name",t_marks,avg_marks)
+elif ch==3:
+    print(stu)
+elif ch==4:
+    if avg_marks>70: 
+        print("name")  
+else:
+    print("invalid input")         
+    
+
