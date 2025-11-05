@@ -115,4 +115,23 @@ for key, value in student.items():
 
 ---
 
+Practice Questions - 
+
+1. Write a Python program to extract a list of values from a given list of dictionaries.
+```python
+Original Dictionary:
+[{'Math': 90, 'Science': 92}, {'Math': 89, 'Science': 94}, {'Math': 92, 'Science': 88}]
+
+Extract a list of values from said list of dictionaries where subject = Science [92, 94, 88]
+```
+
+---
+
+2. A Python Dictionary contains List as a value. Write a Python program to update the list values in the said dictionary.
+
+```python
+Original Dictionary : {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry': [90, 87, 93]}
+Update the list values of the said dictionary : {'Math': [89, 90, 91], 'Physics': [90, 92, 87], 'Chemistry': [90, 87, 93]}
+```
+
 *Happy Coding! 🚀*
