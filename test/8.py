@@ -8,7 +8,7 @@ while True:
     print("press6 to show result summary")
     print("press7 to exit")
     ch=int(input("Enter your choice"))
-    lst=[]
+    lst=[] # Global variable
     if ch==1: # accpt names of student !
         val = int(input("Enter number of entries for Student : "))
         for i in range(val):
