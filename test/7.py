@@ -8,5 +8,5 @@ print("press 4,circle")
 print("press 5,exit")
 
 ch=int(input("Enter your choice"))
-if ch==1:
+
     
