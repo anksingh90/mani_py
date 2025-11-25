@@ -1,7 +1,7 @@
-# write a menu driven program to input your friends name, no. 
+#write a menu driven program to input your friends name, no. 
 #perform these instructions
 #display name,phone of all
-# add new name ,no. in dict
+#add new name ,no. in dict
 #modify phone no. of friend
 #delete entry 
 #search details
