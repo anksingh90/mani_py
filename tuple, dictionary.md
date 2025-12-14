@@ -135,8 +135,15 @@ Update the list values of the said dictionary : {'Math': [89, 90, 91], 'Physics'
 ```
 
 
+---
+
+
 3. Write a program to create a game, roll a dice. every time game rolls a dice, user need to predict the number.
 If numbers entered by user is same as of dice then respond - number is correct else incorrect. total of 5 chances, if user gets
 3 correct prediction, user wins the games else loses the game.
+
+
+---
+
 
 *Happy Coding! 🚀*
