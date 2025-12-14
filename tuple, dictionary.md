@@ -149,6 +149,9 @@ If numbers entered by user is same as of dice then respond - number is correct e
 4. Game 2 : 🎯 Number Quest
 Funcation -
 - A list stores possible numbers.
+```python
+lst = [ 11,22,33,44,55,66,77 ]
+```
 - The computer randomly selects one number.
 - The student guesses the number.
 - Score is stored in a dictionary.
