@@ -152,9 +152,13 @@ Funcation -
 ```python
 lst = [ 11,22,33,44,55,66,77 ]
 ```
-- The computer randomly selects one number.
-- The student guesses the number.
+- The code randomly selects one number.
+- The user guesses the number.
 - Score is stored in a dictionary.
+```python
+score = {'user_name': [1,1,1] }
+```
+- User gets 3 chances to win the game.
 
 
 *Happy Coding! 🚀*
