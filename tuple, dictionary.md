@@ -134,4 +134,9 @@ Original Dictionary : {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry
 Update the list values of the said dictionary : {'Math': [89, 90, 91], 'Physics': [90, 92, 87], 'Chemistry': [90, 87, 93]}
 ```
 
+
+3. Write a program to create a game, roll a dice. every time game rolls a dice, user need to predict the number.
+If numbers entered by user is same as of dice then respond - number is correct else incorrect. total of 5 chances, if user gets
+3 correct prediction, user wins the games else loses the game.
+
 *Happy Coding! 🚀*
