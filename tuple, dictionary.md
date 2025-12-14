@@ -179,7 +179,7 @@ meanings = {
 - Ask the meaning of the word from user.
 - Random word selected using random()
 
-** Concepts Covered **
+*** Concepts Covered ***
 - random()
 - list + dictionary mapping
 - string comparison
