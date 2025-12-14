@@ -158,7 +158,32 @@ lst = [ 11,22,33,44,55,66,77 ]
 ```python
 score = {'user_name': [1,1,1] }
 ```
+
+
+---
+
 - User gets 3 chances to win the game.
 
+5. Game 3: 🧠 Word Guess Game
+** Functionality - ** 
+- Words stored in a list
+```python
+words = ["apple", "book", "school"]
+meanings = {
+    "apple": "A fruit",
+    "book": "Used for reading",
+    "school": "A place to study"
+}
+```
+- Meanings stored in a dictionary
+- Ask the meaning of the word from user.
+- Random word selected using random()
+
+** Concepts Covered **
+- random()
+- list + dictionary mapping
+- string comparison
+
+---
 
 *Happy Coding! 🚀*
