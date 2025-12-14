@@ -158,11 +158,9 @@ lst = [ 11,22,33,44,55,66,77 ]
 ```python
 score = {'user_name': [1,1,1] }
 ```
-
+- User gets 3 chances to win the game.
 
 ---
-
-- User gets 3 chances to win the game.
 
 5. Game 3: 🧠 Word Guess Game
 ** Functionality - ** 
