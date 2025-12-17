@@ -134,4 +134,54 @@ Original Dictionary : {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry
 Update the list values of the said dictionary : {'Math': [89, 90, 91], 'Physics': [90, 92, 87], 'Chemistry': [90, 87, 93]}
 ```
 
+
+---
+
+
+3. Game 1 : 🎯 Roll a dice
+Write a program to create a game, roll a dice. every time game rolls a dice, user need to predict the number.
+If numbers entered by user is same as of dice then respond - number is correct else incorrect. total of 5 chances, if user gets
+3 correct prediction, user wins the games else loses the game.
+
+
+---
+
+4. Game 2 : 🎯 Number Quest
+Funcation -
+- A list stores possible numbers.
+```python
+lst = [ 11,22,33,44,55,66,77 ]
+```
+- The code randomly selects one number.
+- The user guesses the number.
+- Score is stored in a dictionary.
+```python
+score = {'user_name': [1,1,1] }
+```
+- User gets 3 chances to win the game.
+
+---
+
+5. Game 3: 🧠 Word Guess Game
+** Functionality - ** 
+- Words stored in a list
+```python
+words = ["apple", "book", "school"]
+meanings = {
+    "apple": "A fruit",
+    "book": "Used for reading",
+    "school": "A place to study"
+}
+```
+- Meanings stored in a dictionary
+- Ask the meaning of the word from user.
+- Random word selected using random()
+
+*** Concepts Covered ***
+- random()
+- list + dictionary mapping
+- string comparison
+
+---
+
 *Happy Coding! 🚀*
