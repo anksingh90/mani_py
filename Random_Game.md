@@ -1,11 +1,11 @@
 # Game Programs List
 
 ## Program 1: Rock, Paper, Scissors (Extended Version)
-### You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock."
+You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock."
 
-**The Logic:** Compare player input against a computer choice.
+### **The Logic:** Compare player input against a computer choice.
 
-**How to use your tools:**
+### **How to use your tools:**
 * A Tuple to store the fixed options: ('Rock', 'Paper', 'Scissors').
 * random.choice() (or randrange() to pick an index from your tuple).
 * A Dictionary to map what beats what (e.g., {'Rock': 'Scissors', 'Paper': 'Rock'}).
@@ -15,9 +15,9 @@
 ## Program 2: Deck of Cards / Blackjack Lite
 A simplified version of a card game without the complex betting.
 
-**The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
+### **The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
 
-**How to use your tools:**
+### **How to use your tools:**
 * A List to act as the deck.
 * random.randrange() to "draw" a card by picking a random index and then removing it from the list.
 * A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
@@ -28,7 +28,7 @@ A simplified version of a card game without the complex betting.
 ## Program 3: Treasure Hunt Game
 Design a Python program to create a Treasure Hunt game using a dictionary.
 
-**Game Requirements:**
+### **Game Requirements:**
 * Create a dictionary with 5 locations numbered from 1 to 5.
 * Initially, store the value "Empty" for all locations.
 * Randomly select one location to hide the treasure and update its value to "Treasure".
@@ -44,9 +44,9 @@ Design a Python program to create a Treasure Hunt game using a dictionary.
 ## Program 4: Dice Battle Game
 Write a Python program to simulate a Dice Battle between two players.
 
-**Game Requirements:**
+### **Game Requirements:**
 * Create a dictionary to store player names as keys and their scores as values.
-* Each player should roll a dice 5 times.
+* Each player should roll a dice **5 times**.
 * Generate dice values randomly between 1 and 6.
 * Add the dice value to the respective player's score.
 * After all rolls, display:
@@ -59,7 +59,7 @@ Write a Python program to simulate a Dice Battle between two players.
 ## Program 5: Monster Attack Game
 Develop a Monster Attack game using dictionaries.
 
-**Game Requirements:**
+### **Game Requirements:**
 * Create a dictionary to store the health points of:
   * Player
   * Monster
@@ -71,7 +71,6 @@ Develop a Monster Attack game using dictionaries.
   * Display health status after each round.
 * Continue the game until either the player or the monster's health becomes zero or less.
 * Display the winner at the end.
-
 
 ---
 
@@ -126,9 +125,15 @@ Player wins!
 ## Program 6: Dice Frequency Analyzer
 Write a Python program to analyze dice rolls.
 
-**Game Requirements:**
+### **Game Requirements:**
 * Roll a dice **20 times** using a random function.
 * Store the frequency of each dice number **(1–6)** in a dictionary.
 * Display the final frequency table in a readable format.
+
+
+---
+
+
+
 
 
