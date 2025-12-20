@@ -45,15 +45,52 @@ Three options: Rock, Paper, Scissors
 ---
 
 ## Program 2: Deck of Cards / Blackjack Lite
-A simplified version of a card game without the complex betting.
+**Program Overview : ** Create a simplified Blackjack card game where a player competes against a dealer to get as close to 21 points as possible without going over.
 
-**The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
+**Game Objective : ** Goal: Get a hand value closer to 21 than the dealer, without exceeding 21 (called **"busting"**).
+* If your total is closer to 21 than the dealer's, you win
+* If you go over 21, you bust and lose immediately
+* If the dealer goes over 21, you win
+* If both have the same total, it's a tie (push)
 
-**How to use your tools:**
-* A List to act as the deck.
-* random.randrange() to "draw" a card by picking a random index and then removing it from the list.
-* A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
+**Game Requirements**
+***1. Create the Deck***
+- Build a deck of 52 cards using a List
+- Include all four suits: Hearts, Diamonds, Clubs, Spades
+- Each suit has 13 cards: Ace, 2-10, Jack, Queen, King
+- Example: ['Ace of Hearts', '2 of Hearts', ..., 'King of Spades']
 
+***2. Assign Card Values***
+- Number cards (2-10) are worth their face value
+- Face cards (Jack, Queen, King) are worth 10 points
+- Ace can be worth 1 or 11 (simplified: you can choose one value)
+- Use a Dictionary to map face cards to their values:
+
+**Output:**
+```python
+{'Jack': 10, 'Queen': 10, 'King': 10, 'Ace': 11}
+```
+
+***3. Deal Cards Randomly***
+
+- Use random.randrange() to pick a random index from the deck list
+- Remove the dealt card from the deck so it can't be drawn again
+- Deal 2 cards to the player at the start
+- Deal 2 cards to the dealer at the start
+
+***4. Player's Turn***
+
+- Show the player's cards and total value
+- Ask if the player wants to:
+- Hit (draw another card)
+- Stand (keep current hand and end turn)
+- If the player hits and goes over 21, they bust and lose
+- Player can keep hitting until they stand or bust
+
+***6. Determine Winner***
+
+- Compare final totals
+- Announce who wins, loses, or if it's a tie
 
 ---
 
