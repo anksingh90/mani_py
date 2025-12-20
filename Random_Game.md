@@ -17,18 +17,6 @@ Three options: Rock, Paper, Scissors
 - Compare the choices - The program determines who wins based on the game rules
 - Display the result - Shows whether you won, lost, or tied
 
-### **How to use your tools:**
-* A Tuple to store the fixed options: ('Rock', 'Paper', 'Scissors').
-* random.choice() (or randrange() to pick an index from your tuple).
-* A Dictionary to map what beats what (e.g., {'Rock': 'Scissors', 'Paper': 'Rock'}).
-
----
-
-## Program 2: Deck of Cards / Blackjack Lite
-A simplified version of a card game without the complex betting.
-
-### **The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
-
 <details>
   <summary>🔍 Click to see the hint</summary>
   * A List to act as the deck.
@@ -54,8 +42,17 @@ A simplified version of a card game without the complex betting.
 </details>
 
 
-### **How to use your tools:**
+---
 
+## Program 2: Deck of Cards / Blackjack Lite
+A simplified version of a card game without the complex betting.
+
+**The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
+
+**How to use your tools:**
+* A List to act as the deck.
+* random.randrange() to "draw" a card by picking a random index and then removing it from the list.
+* A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
 
 
 ---
