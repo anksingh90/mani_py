@@ -1,7 +1,7 @@
 # Game Programs List
 
 ## Program 1: Rock, Paper, Scissors (Extended Version)
-You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock."
+### You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock."
 
 **The Logic:** Compare player input against a computer choice.
 
@@ -9,6 +9,8 @@ You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock.
 * A Tuple to store the fixed options: ('Rock', 'Paper', 'Scissors').
 * random.choice() (or randrange() to pick an index from your tuple).
 * A Dictionary to map what beats what (e.g., {'Rock': 'Scissors', 'Paper': 'Rock'}).
+
+---
 
 ## Program 2: Deck of Cards / Blackjack Lite
 A simplified version of a card game without the complex betting.
@@ -19,6 +21,9 @@ A simplified version of a card game without the complex betting.
 * A List to act as the deck.
 * random.randrange() to "draw" a card by picking a random index and then removing it from the list.
 * A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
+
+
+---
 
 ## Program 3: Treasure Hunt Game
 Design a Python program to create a Treasure Hunt game using a dictionary.
@@ -33,6 +38,9 @@ Design a Python program to create a Treasure Hunt game using a dictionary.
   * If incorrect, display an appropriate message and reduce the remaining attempts.
 * If the player fails to find the treasure after all attempts, display the correct treasure location.
 
+
+---
+
 ## Program 4: Dice Battle Game
 Write a Python program to simulate a Dice Battle between two players.
 
@@ -44,6 +52,9 @@ Write a Python program to simulate a Dice Battle between two players.
 * After all rolls, display:
   * Final scores of both players
   * Name of the player who wins, or a tie message if scores are equal
+
+
+---
 
 ## Program 5: Monster Attack Game
 Develop a Monster Attack game using dictionaries.
@@ -61,8 +72,11 @@ Develop a Monster Attack game using dictionaries.
 * Continue the game until either the player or the monster's health becomes zero or less.
 * Display the winner at the end.
 
-**Output:**
 
+---
+
+**Output:**
+```python
 **Round 1**
 -------------------
 Player attacks Monster for **25** damage.
@@ -105,7 +119,9 @@ Monster: **-11** HP
 
 **Game Over!**
 Player wins!
+```
 
+---
 
 ## Program 6: Dice Frequency Analyzer
 Write a Python program to analyze dice rolls.
