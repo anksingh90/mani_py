@@ -29,10 +29,33 @@ A simplified version of a card game without the complex betting.
 
 ### **The Logic:** Deal cards to a player and a dealer; see who gets closest to 21.
 
+<details>
+  <summary>🔍 Click to see the hint</summary>
+  * A List to act as the deck.
+  -  * random.randrange() to "draw" a card by picking a random index and then removing it from the list.
+  -  * A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
+ 
+ * Why Use These Tools ?
+   -  * Tuple for options: ('Rock', 'Paper', 'Scissors')
+ * Stores the three game choices
+    - * The options never change, so a tuple (unchangeable list) is perfect
+        
+ ** random.randrange()
+  - Makes the computer pick randomly
+  - Ensures the computer doesn't always pick the same thing
+  - Makes the game fair and unpredictable
+ * Dictionary for rules: {'Rock': 'Scissors', 'Paper': 'Rock'}
+  - Shows what each choice defeats
+  - Instead of writing many if-statements, you lookup the winner quickly
+  - Example: Rock defeats Scissors, so 'Rock': 'Scissors'
+ * Game Flow
+    - You → Choose Rock/Paper/Scissors → Computer → Chooses randomly → Compare → Declare winner!
+
+</details>
+
+
 ### **How to use your tools:**
-* A List to act as the deck.
-* random.randrange() to "draw" a card by picking a random index and then removing it from the list.
-* A Dictionary to assign values to face cards (e.g., {'King': 10, 'Queen': 10}).
+
 
 
 ---
@@ -144,16 +167,5 @@ Write a Python program to analyze dice rolls.
 
 
 ---
-
-
-
-<details>
-  <summary>🔍 Click to see the hint</summary>
-
-  This is the secret hint or answer you want to hide!
-  - You can even use **Markdown** inside here.
-  - Just make sure there is an empty line above it.
-
-</details>
 
 
