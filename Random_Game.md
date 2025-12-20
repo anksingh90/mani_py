@@ -1,9 +1,21 @@
 # Game Programs List
 
 ## Program 1: Rock, Paper, Scissors (Extended Version)
-You can build the classic version or even "Rock, Paper, Scissors, Lizard, Spock."
+You can build the classic version or even "Rock, Paper, Scissors."
 
 ### **The Logic:** Compare player input against a computer choice.
+
+**Classic Version : **
+Three options: Rock, Paper, Scissors
+- Rock beats Scissors
+- Paper beats Rock
+- Scissors beats Paper
+
+** What Does the Program Do? **
+- Player makes a choice - You select Rock, Paper, or Scissors
+- Computer makes a choice - The computer randomly picks one option
+- Compare the choices - The program determines who wins based on the game rules
+- Display the result - Shows whether you won, lost, or tied
 
 ### **How to use your tools:**
 * A Tuple to store the fixed options: ('Rock', 'Paper', 'Scissors').
@@ -135,5 +147,13 @@ Write a Python program to analyze dice rolls.
 
 
 
+<details>
+  <summary>🔍 Click to see the hint</summary>
+
+  This is the secret hint or answer you want to hide!
+  - You can even use **Markdown** inside here.
+  - Just make sure there is an empty line above it.
+
+</details>
 
 
