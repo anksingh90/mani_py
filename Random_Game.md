@@ -198,6 +198,32 @@ Write a Python program to analyze dice rolls.
 * Roll a dice **20 times** using a random function.
 * Store the frequency of each dice number **(1–6)** in a dictionary.
 * Display the final frequency table in a readable format.
+* Add a simple probability forecast based on the previous rolls
+* each dice roll is independent, the probability of the next number is always 1/6 (uniform distribution). However, we can show the relative frequency of each number so far, which can give an idea of the "trend".
+
+
+### **Output - **
+
+```python
+**Dice Frequency Table**
+------------------------
+🎲 1: *** (3 times)
+🎲 2: ***** (5 times)
+🎲 3: * (1 times)
+🎲 4: **** (4 times)
+🎲 5: *** (3 times)
+🎲 6: **** (4 times)
+
+**Forecast (Relative Frequencies)**
+---------------------------------
+🎲 1: 15.0% chance (based on past 20 rolls)
+🎲 2: 25.0% chance (based on past 20 rolls)
+🎲 3: 5.0% chance (based on past 20 rolls)
+🎲 4: 20.0% chance (based on past 20 rolls)
+🎲 5: 15.0% chance (based on past 20 rolls)
+🎲 6: 20.0% chance (based on past 20 rolls)
+
+```
 
 
 ---
