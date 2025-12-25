@@ -17,6 +17,30 @@ Three options: Rock, Paper, Scissors
 - Compare the choices - The program determines who wins based on the game rules
 - Display the result - Shows whether you won, lost, or tied
 
+Output - 
+```python
+***** Welcome to Game : ******
+--- Rock, Paper, Scissors: Best of 5 ---
+
+--- Round 1 ---
+User : Enter your choice (rock, paper, or scissors) : Rock
+Computer choice : rock
+It's a tie!
+Scoreboard -> User: 0 | Computer: 0
+
+--- Round 2 ---
+User : Enter your choice (rock, paper, or scissors) : Roc
+Invalid input! Please try again.
+
+--- Round 2 ---
+User : Enter your choice (rock, paper, or scissors) : Rock
+Computer choice : rock
+It's a tie!
+Scoreboard -> User: 0 | Computer: 0
+
+```
+
+
 <details>
   <summary>🔍 Click to see the hint</summary>
   * A List to act as the deck.
