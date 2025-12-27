@@ -277,5 +277,133 @@ Player and computer draw one random card; higher card value wins.
 - Value comparison logic
 - Modular coding using functions
 
+---
+
+## Output : 
+Output 1: Single Round - Player Wins
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+| Ace |
+|     |
+|  Ace|
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+|King |
+|     |
+| King|
+|_____|
+
+========================================
+  Player's Card: Ace (Value: 14)
+  Computer's Card: King (Value: 13)
+========================================
+
+🎉 YOU WIN! 🎉
+
+========================================
+Play again? (yes/no): no
+```
+
+Output 2: Single Round - Computer Wins
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+|  5  |
+|     |
+|  5  |
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+|Queen|
+|     |
+|Queen|
+|_____|
+
+========================================
+  Player's Card: 5 (Value: 5)
+  Computer's Card: Queen (Value: 12)
+========================================
+
+💻 COMPUTER WINS! 💻
+
+========================================
+Play again? (yes/no): no
+```
+
+Output 3: Single Round - Tie
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+| 10  |
+|     |
+| 10  |
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+| 10  |
+|     |
+| 10  |
+|_____|
+
+========================================
+  Player's Card: 10 (Value: 10)
+  Computer's Card: 10 (Value: 10)
+========================================
+
+🤝 IT'S A TIE! 🤝
+
+========================================
+Play again? (yes/no): no
+```
 
 ---
