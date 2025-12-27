@@ -249,7 +249,33 @@ Write a Python program to analyze dice rolls.
 
 ```
 
-
 ---
 
+## Program 7: High Card Wins
+Player and computer draw one random card; higher card value wins.
 
+### ** List → cards : **
+```python
+['2','3',...,'10','Jack','Queen','King','Ace']
+```
+* Dictionary → card values
+
+### **Key Functionalities**
+- Create card deck (no suits required)
+- Randomly select one card for player
+- Randomly select one card for computer
+- Compare values
+- Display winner
+
+### **Functions Required**
+- draw_card(deck)
+- get_card_value(card)
+- compare_cards(player, computer)
+
+### **Learning Outcome**
+- Random selection without repetition
+- Value comparison logic
+- Modular coding using functions
+
+
+---
