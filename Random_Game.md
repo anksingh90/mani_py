@@ -409,7 +409,7 @@ Play again? (yes/no): no
 ---
 
 
-** Program 8 : High Card Wins (Mini Project) **
+# ** Program 8 : High Card Wins (Mini Project) **
 *** Project Description ***
 
 Design and implement a card game simulation called “High Card Wins”, where a user plays against the computer.
