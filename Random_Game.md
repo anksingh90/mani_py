@@ -407,3 +407,83 @@ Play again? (yes/no): no
 ```
 
 ---
+
+
+** Program 8 : High Card Wins (Mini Project) **
+*** Project Description ***
+
+Design and implement a card game simulation called “High Card Wins”, where a user plays against the computer.
+Both the user and the system choose cards from the same deck, and the player with the higher-value card wins the round.
+
+---
+
+Game Rules & Requirements
+
+### 1. Card Deck
+Create a list of cards containing only card ranks (no suits):
+```python
+['Ace', 'King', 'Queen', 'Jack', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+```
+Use a dictionary to assign values to cards :
+- Ace = 14
+- King = 13
+- Queen = 12
+- Jack = 11
+- Number cards = their face value
+
+### 2. Round Setup
+- The game consists of exactly 5 rounds.
+- At the start of each round :
+  - Create a fresh deck.
+  - Randomly select 5 unique cards from the deck.
+  - These 5 cards form a shared deck for that round.
+
+### 3. Gameplay
+- The system plays first:
+  - Randomly selects one card from the 5-card deck.
+  - The selected card is removed from the deck.
+
+- The user plays next:
+  - Display the remaining cards.
+  - Allow the user to choose one card.
+
+- Display:
+  - System’s card
+  - User’s card
+
+### 4. Winner of the Round
+- Compare card values using the dictionary.
+- Declare:
+  - User wins the round
+  - System wins the round
+  - Draw (if both cards have equal value)
+
+### 5. Score Tracking
+- Maintain:
+  - User score
+  - System score
+  - Number of draws
+- Store the winner of each round.
+
+### 6. Final Result
+- After all 5 rounds:
+  - Display round-wise results.
+  - Show total scores.
+  - Announce the final winner or declare the match a draw.
+
+---
+
+## Expected Output (Sample) - 
+```python
+Round 1:
+System card: King
+Your cards: ['Ace', '7', '3', '10']
+Your choice: Ace
+You win this round!
+Score → User: 1 | System: 0 | Draws: 0
+```
+
+
+---
+
+
