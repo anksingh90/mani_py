@@ -248,7 +248,7 @@ Write a Python program to analyze dice rolls.
 🎲 6: 20.0% chance (based on past 20 rolls)
 
 ```
-
+<details>
 ---
 
 ## Program 7: High Card Wins
@@ -405,11 +405,12 @@ Press Enter to draw your card...
 ========================================
 Play again? (yes/no): no
 ```
+</details>
 
 ---
 
 
-# ** Program 8 : High Card Wins (Mini Project) **
+# ** Program 7 : High Card Wins (Mini Project) **
 ## *** Project Description ***
 
 Design and implement a card game called “High Card Wins”, where a user plays against the computer by selecting cards from a shared deck.
@@ -420,11 +421,11 @@ The game supports two modes:
 ---
 
 ## ***Game Modes***
-   ###***Mode 1: Single Round***
+   ##***Mode 1: Single Round***
    - Only one round is played.
    - The user and system play one time.
    - Winner is announced immediately.
-  ###***Mode 2: Multi Round (Best of 5)***
+  ##***Mode 2: Multi Round (Best of 5)***
      - Exactly 5 rounds are played.
      - Scores are tracked across rounds.
      - Player with more round wins is declared the final winner.
