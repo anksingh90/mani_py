@@ -412,8 +412,23 @@ Play again? (yes/no): no
 # ** Program 8 : High Card Wins (Mini Project) **
 *** Project Description ***
 
-Design and implement a card game simulation called “High Card Wins”, where a user plays against the computer.
-Both the user and the system choose cards from the same deck, and the player with the higher-value card wins the round.
+Design and implement a card game called “High Card Wins”, where a user plays against the computer by selecting cards from a shared deck.
+The game supports two modes:
+- Single Round Mode
+- Multi Round Mode (5 Rounds)
+
+---
+
+***Game Modes***
+   ***Mode 1: Single Round***
+   - Only one round is played.
+   - The user and system play one time.
+   - Winner is announced immediately.
+  ***Mode 2: Multi Round (Best of 5)***
+     - Exactly 5 rounds are played.
+     - Scores are tracked across rounds.
+     - Player with more round wins is declared the final winner.
+     - If both have equal wins, the game is declared a draw.
 
 ---
 
