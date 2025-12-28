@@ -489,14 +489,155 @@ Use a dictionary to assign values to cards :
 
 ---
 
-## Expected Output (Sample) - 
+## Sample Output (Single Round) - 
 ```python
-Round 1:
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+Enter your choice: 1
+
+--- Single Round Game ---
+
+System has drawn its card.
+
+Available cards for you:
+['Ace', '7', '3', '10']
+
+Enter the card you want to play: Ace
+
 System card: King
-Your cards: ['Ace', '7', '3', '10']
-Your choice: Ace
-You win this round!
-Score → User: 1 | System: 0 | Draws: 0
+Your card: Ace
+
+Result:
+Congratulations! You win this round.
+
+```
+## Example Output (Draw Case) - 
+```python
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+Enter your choice: 1
+
+--- Single Round Game ---
+
+System has drawn its card.
+
+Available cards for you:
+['Queen', '7', '3', '10']
+
+Enter the card you want to play: Queen
+
+System card: Queen
+Your card: Queen
+
+Result:
+This round is a draw.
+
+```
+
+## Sample Output – Multi Round Game (Best of 5) - 
+```python
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+Enter your choice: 2
+
+--- Multi Round Game (Best of 5) ---
+
+Round 1:
+System has drawn its card.
+
+Available cards for you:
+['Ace', '7', '3', '10']
+
+Enter the card you want to play: Ace
+
+System card: King
+Your card: Ace
+
+Result: You win this round.
+
+Score after Round 1:
+User: 1 | System: 0 | Draws: 0
+---------------------------------
+
+Round 2:
+System has drawn its card.
+
+Available cards for you:
+['Queen', '4', '9', '2']
+
+Enter the card you want to play: Queen
+
+System card: Queen
+Your card: Queen
+
+Result: This round is a draw.
+
+Score after Round 2:
+User: 1 | System: 0 | Draws: 1
+---------------------------------
+
+Round 3:
+System has drawn its card.
+
+Available cards for you:
+['5', '7', '3', '10']
+
+Enter the card you want to play: 10
+
+System card: Jack
+Your card: 10
+
+Result: System wins this round.
+
+Score after Round 3:
+User: 1 | System: 1 | Draws: 1
+---------------------------------
+
+Round 4:
+System has drawn its card.
+
+Available cards for you:
+['Ace', '8', '6', '4']
+
+Enter the card you want to play: Ace
+
+System card: Queen
+Your card: Ace
+
+Result: You win this round.
+
+Score after Round 4:
+User: 2 | System: 1 | Draws: 1
+---------------------------------
+
+Round 5:
+System has drawn its card.
+
+Available cards for you:
+['King', '9', '2', '6']
+
+Enter the card you want to play: King
+
+System card: Jack
+Your card: King
+
+Result: You win this round.
+
+Score after Round 5:
+User: 3 | System: 1 | Draws: 1
+---------------------------------
+
+Final Result:
+User Wins the Game!
+
+Final Score:
+User: 3
+System: 1
+Draws: 1
+
 ```
 
 
