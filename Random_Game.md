@@ -17,6 +17,30 @@ Three options: Rock, Paper, Scissors
 - Compare the choices - The program determines who wins based on the game rules
 - Display the result - Shows whether you won, lost, or tied
 
+Output - 
+```python
+***** Welcome to Game : ******
+--- Rock, Paper, Scissors: Best of 5 ---
+
+--- Round 1 ---
+User : Enter your choice (rock, paper, or scissors) : Rock
+Computer choice : rock
+It's a tie!
+Scoreboard -> User: 0 | Computer: 0
+
+--- Round 2 ---
+User : Enter your choice (rock, paper, or scissors) : Roc
+Invalid input! Please try again.
+
+--- Round 2 ---
+User : Enter your choice (rock, paper, or scissors) : Rock
+Computer choice : rock
+It's a tie!
+Scoreboard -> User: 0 | Computer: 0
+
+```
+
+
 <details>
   <summary>🔍 Click to see the hint</summary>
   * A List to act as the deck.
@@ -222,6 +246,403 @@ Write a Python program to analyze dice rolls.
 🎲 4: 20.0% chance (based on past 20 rolls)
 🎲 5: 15.0% chance (based on past 20 rolls)
 🎲 6: 20.0% chance (based on past 20 rolls)
+
+```
+<details>
+---
+
+## Program 7: High Card Wins
+Player and computer draw one random card; higher card value wins.
+
+### ** List → cards : **
+```python
+['2','3',...,'10','Jack','Queen','King','Ace']
+```
+* Dictionary → card values
+
+### **Key Functionalities**
+- Create card deck (no suits required)
+- Randomly select one card for player
+- Randomly select one card for computer
+- Compare values
+- Display winner
+
+### **Functions Required**
+- draw_card(deck)
+- get_card_value(card)
+- compare_cards(player, computer)
+
+### **Learning Outcome**
+- Random selection without repetition
+- Value comparison logic
+- Modular coding using functions
+
+---
+
+## Output : 
+Output 1: Single Round - Player Wins
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+| Ace |
+|     |
+|  Ace|
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+|King |
+|     |
+| King|
+|_____|
+
+========================================
+  Player's Card: Ace (Value: 14)
+  Computer's Card: King (Value: 13)
+========================================
+
+🎉 YOU WIN! 🎉
+
+========================================
+Play again? (yes/no): no
+```
+
+Output 2: Single Round - Computer Wins
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+|  5  |
+|     |
+|  5  |
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+|Queen|
+|     |
+|Queen|
+|_____|
+
+========================================
+  Player's Card: 5 (Value: 5)
+  Computer's Card: Queen (Value: 12)
+========================================
+
+💻 COMPUTER WINS! 💻
+
+========================================
+Play again? (yes/no): no
+```
+
+Output 3: Single Round - Tie
+```python
+Welcome to High Card Wins!
+1. Play Single Round
+2. Play Multiple Rounds with Score Tracking
+
+Choose game mode (1 or 2): 1
+
+========================================
+    🎴 HIGH CARD WINS 🎴
+========================================
+
+Rules: Draw a card. Higher card wins!
+Card values: 2-10 < Jack < Queen < King < Ace
+
+Press Enter to draw your card...
+
+🎴 YOUR CARD:
+ _____ 
+| 10  |
+|     |
+| 10  |
+|_____|
+
+🎴 COMPUTER'S CARD:
+ _____ 
+| 10  |
+|     |
+| 10  |
+|_____|
+
+========================================
+  Player's Card: 10 (Value: 10)
+  Computer's Card: 10 (Value: 10)
+========================================
+
+🤝 IT'S A TIE! 🤝
+
+========================================
+Play again? (yes/no): no
+```
+</details>
+
+---
+
+
+# ** Program 7 : High Card Wins (Mini Project) **
+## *** Project Description ***
+
+Design and implement a card game called “High Card Wins”, where a user plays against the computer by selecting cards from a shared deck.
+The game supports two modes:
+- Single Round Mode
+- Multi Round Mode (5 Rounds)
+
+---
+
+## ***Game Modes***
+   ##***Mode 1: Single Round***
+   - Only one round is played.
+   - The user and system play one time.
+   - Winner is announced immediately.
+  ##***Mode 2: Multi Round (Best of 5)***
+     - Exactly 5 rounds are played.
+     - Scores are tracked across rounds.
+     - Player with more round wins is declared the final winner.
+     - If both have equal wins, the game is declared a draw.
+
+---
+
+Game Rules & Requirements
+
+### 1. Card Deck
+Create a list of cards containing only card ranks (no suits):
+```python
+['Ace', 'King', 'Queen', 'Jack', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+```
+Use a dictionary to assign values to cards :
+- Ace = 14
+- King = 13
+- Queen = 12
+- Jack = 11
+- Number cards = their face value
+
+### 2. Round Setup
+- The game consists of exactly 5 rounds.
+- At the start of each round :
+  - Create a fresh deck.
+  - Randomly select 5 unique cards from the deck.
+  - These 5 cards form a shared deck for that round.
+
+### 3. Gameplay
+- The system plays first:
+  - Randomly selects one card from the 5-card deck.
+  - The selected card is removed from the deck.
+
+- The user plays next:
+  - Display the remaining cards.
+  - Allow the user to choose one card.
+
+- Display:
+  - System’s card
+  - User’s card
+
+### 4. Winner of the Round
+- Compare card values using the dictionary.
+- Declare:
+  - User wins the round
+  - System wins the round
+  - Draw (if both cards have equal value)
+
+### 5. Score Tracking
+- Maintain:
+  - User score
+  - System score
+  - Number of draws
+- Store the winner of each round.
+
+### 6. Final Result
+- After all 5 rounds:
+  - Display round-wise results.
+  - Show total scores.
+  - Announce the final winner or declare the match a draw.
+
+---
+
+## Sample Output (Single Round) - 
+```python
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+Enter your choice: 1
+
+--- Single Round Game ---
+
+System has drawn its card.
+
+Available cards for you:
+['Ace', '7', '3', '10']
+
+Enter the card you want to play: Ace
+
+System card: King
+Your card: Ace
+
+Result:
+Congratulations! You win this round.
+
+```
+## Example Output (Draw Case) - 
+```python
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+Enter your choice: 1
+
+--- Single Round Game ---
+
+System has drawn its card.
+
+Available cards for you:
+['Queen', '7', '3', '10']
+
+Enter the card you want to play: Queen
+
+System card: Queen
+Your card: Queen
+
+Result:
+This round is a draw.
+
+```
+
+## Sample Output – Multi Round Game (Best of 5) - 
+```python
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+0 : Exit
+Enter your choice : 2
+
+--- Multi Round Game (Best of 5) ---
+--- Round  1 : ---
+
+System has drawn its card.
+
+User : Shuffling Cards - 
+Available cards for you : 
+Card Position :  1  Card :  4
+Card Position :  2  Card :  9
+Card Position :  3  Card :  5
+Card Position :  4  Card :  Queen
+Card Position :  5  Card :  2
+Enter the card you want to play (enter position) : 2
+
+System card :  8
+Your card :  9
+
+Result : 
+Score after Round 1 :
+User: 1  | System:  0 | Draws:  0
+--- Round  2 : ---
+
+System has drawn its card.
+
+User : Shuffling Cards - 
+Available cards for you : 
+Card Position :  1  Card :  4
+Card Position :  2  Card :  5
+Card Position :  3  Card :  Queen
+Card Position :  4  Card :  2
+Enter the card you want to play (enter position) : 2
+
+System card :  Ace
+Your card :  5
+
+Result : 
+Score after Round 2 :
+User: 1  | System:  1 | Draws:  0
+--- Round  3 : ---
+
+System has drawn its card.
+
+User : Shuffling Cards - 
+Available cards for you : 
+Card Position :  1  Card :  4
+Card Position :  2  Card :  Queen
+Card Position :  3  Card :  2
+Enter the card you want to play (enter position) : 3
+
+System card :  King
+Your card :  2
+
+Result : 
+Score after Round 3 :
+User: 1  | System:  2 | Draws:  0
+--- Round  4 : ---
+
+System has drawn its card.
+
+User : Shuffling Cards - 
+Available cards for you : 
+Card Position :  1  Card :  4
+Card Position :  2  Card :  Queen
+Enter the card you want to play (enter position) : 1
+
+System card :  Queen
+Your card :  4
+
+Result : 
+Score after Round 4 :
+User: 1  | System:  3 | Draws:  0
+--- Round  5 : ---
+
+System has drawn its card.
+
+User : Shuffling Cards - 
+Available cards for you : 
+Card Position :  1  Card :  Queen
+Enter the card you want to play (enter position) : 1
+
+System card :  10
+Your card :  Queen
+
+Result : 
+Score after Round 5 :
+User: 2  | System:  3 | Draws:  0
+Final Result:
+System Wins the Game!
+
+------ Final Score: ------
+User :  2
+System :  3
+Draw :  0
+Press Enter to exit !
+Choose Game Mode:
+1. Single Round Game
+2. Multi Round Game (Best of 5)
+0 : Exit
+Enter your choice : 0
 
 ```
 
