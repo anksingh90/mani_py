@@ -98,7 +98,7 @@ After 5 rounds :
     * Be greater than or equal to a minimum bet (e.g., 10 coins)
     * Not exceed its available balance
     * Be chosen randomly
-* System should not bet more than `25% of its wallet` in one round.
+* System should be between `10% - 25% of its wallet` in one round.
 
 ---
 ---
