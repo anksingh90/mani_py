@@ -37,7 +37,7 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 ## *3. Game Modes* ##
 The program must display a menu with the following options:
 1. Single Spin Mode
-2. Multi-Round Mode *(Best of 5)*
+2. Multi-Round Mode `*(Best of 5)*`
 3. Exit
 The menu must run in a loop until the user chooses to exit.
 
