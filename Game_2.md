@@ -80,6 +80,16 @@ After 5 rounds :
     * Equal wins → Match Draw
 * Display final wallet balances of both user and system.
 
+---
+
+## 6. Winning Rules ##
+
+| Condition | Winning Amount |
+| :--- | :--- |
+| 3 identical symbols | Bet × 10 |
+| 3 Sevens or 3 Jackpots | Bet × 50 |
+| Any 2 identical symbols | Bet × 3 |
+| No match | 0 |
 
 
 
