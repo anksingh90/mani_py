@@ -25,7 +25,7 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 
 ---
 
-## *2. Wallet System* ##
+### 2. Wallet System ###
  * Both User and System have wallets (coin balance).
  * Initial balance :
     - `User: 1000 coins`
@@ -34,7 +34,7 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 
 ---
 
-## *3. Game Modes* ##
+### 3. Game Modes ###
 The program must display a menu with the following options:
 1. Single Spin Mode
 2. Multi-Round Mode `*(Best of 5)*`
@@ -43,7 +43,7 @@ The menu must run in a loop until the user chooses to exit.
 
 ---
 
-## *4. Single Spin Mode (User vs System)* ##
+### *4. Single Spin Mode (User vs System)* ###
 In this mode :
 1. User enters a bet amount.
 2. System places a **random bet** based on its wallet.
@@ -63,7 +63,7 @@ In this mode :
 
 ---
 
-## 5. Multi-Round Mode (Best of 5) ##
+### 5. Multi-Round Mode (Best of 5) ###
 In this mode :
 * The game runs exactly 5 rounds.
 * Each round follows the same rules as Single Spin Mode.
@@ -82,7 +82,7 @@ After 5 rounds :
 
 ---
 
-## 6. Winning Rules ##
+### 6. Winning Rules ###
 
 | Condition | Winning Amount |
 | :--- | :--- |
@@ -93,7 +93,7 @@ After 5 rounds :
 
 ---
 
-## 7. System Betting Rules ##
+### 7. System Betting Rules ###
 * System bet must:
     * Be greater than or equal to a minimum bet (e.g., 10 coins)
     * Not exceed its available balance
@@ -101,6 +101,8 @@ After 5 rounds :
 * System should not bet more than `25% of its wallet` in one round.
 
 ---
+---
+
 
 
 
