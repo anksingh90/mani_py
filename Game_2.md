@@ -9,18 +9,9 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 ### 1. Symbols and Slots ###
  * The slot machine uses 7 symbols, represented using numbers and stored in a dictionary:
 
-`1 → Cherry  `
-`2 → Lemon  `
-`3 → Orange ` 
-`4 → Star  `
-`5 → Diamond ` 
-`6 → Seven  `
-`7 → Jackpot`
+`symbols = {1: 'Cherry', 2: 'Lemon', 3: 'Orange', 4: 'Star', 5: 'Diamond', 6: 'Seven', 7: 'Jackpot'}`
 
- * Each spin generates three random symbols using only one of the following functions:
-    - `random()`
-    - `randint()`
-    - `randrange()`
+ * Each spin generates three random symbols.
 
 ---
 
@@ -100,8 +91,166 @@ After 5 rounds :
 * System should be between `10% - 25% of its wallet` in one round.
 
 ---
----
 
+## Sample Input / Output ##
+### Program Start ###
+
+### Output : ###
+```python
+Welcome to CASINO SLOT MACHINE
+------------------------------
+User Balance   : 1000 coins
+System Balance : 1000 coins
+
+1. Single Spin Mode
+2. Multi-Round Mode (Best of 5)
+0. Exit
+
+Enter your choice: 1
+```
+
+### 1. Sample Output: Single Spin Mode ###
+
+```python
+--- SINGLE SPIN MODE ---
+
+Your current balance   : 1000
+System current balance : 1000
+
+Enter your bet amount: 100
+
+System bets: 80
+
+Spinning slots...
+
+User Slots   : [ Cherry | Cherry | Star ]
+System Slots : [ Lemon | Lemon | Orange ]
+
+User wins this round!
+
+User wins 300 coins
+System loses 80 coins
+
+Updated Balances:
+User Balance   : 1200
+System Balance : 920
+```
+
+### 2. Sample Output: Draw Case (Important) ###
+
+```python
+--- SINGLE SPIN MODE ---
+
+Your current balance   : 1200
+System current balance : 920
+
+Enter your bet amount: 200
+
+System bets: 200
+
+Spinning slots...
+
+User Slots   : [ Star | Star | Lemon ]
+System Slots : [ Orange | Orange | Diamond ]
+
+Result: DRAW
+
+Both bets refunded.
+
+Updated Balances:
+User Balance   : 1200
+System Balance : 920
+```
+###3. Sample Output: Multi-Round Mode (Best of 5)###
+
+```python
+--- MULTI-ROUND MODE (BEST OF 5) ---
+
+Round 1
+-------
+User Balance   : 1000
+System Balance : 1000
+
+Enter your bet: 100
+System bets: 150
+
+User Slots   : [ Seven | Seven | Seven ]
+System Slots : [ Cherry | Lemon | Star ]
+
+User wins Round 1
+User wins 5000 coins
+
+--------------------------------
+
+Round 2
+-------
+User Balance   : 5900
+System Balance : 850
+
+Enter your bet: 300
+System bets: 200
+
+User Slots   : [ Lemon | Star | Orange ]
+System Slots : [ Diamond | Diamond | Lemon ]
+
+System wins Round 2
+
+--------------------------------
+
+Round 3
+-------
+Enter your bet: 200
+System bets: 100
+
+User Slots   : [ Star | Star | Lemon ]
+System Slots : [ Star | Star | Lemon ]
+
+Result: DRAW
+Bets refunded
+
+--------------------------------
+
+Round 4
+-------
+Enter your bet: 400
+System bets: 300
+
+User Slots   : [ Cherry | Cherry | Cherry ]
+System Slots : [ Lemon | Orange | Star ]
+
+User wins Round 4
+
+--------------------------------
+
+Round 5
+-------
+Enter your bet: 200
+System bets: 150
+
+User Slots   : [ Lemon | Orange | Star ]
+System Slots : [ Diamond | Diamond | Seven ]
+
+System wins Round 5
+```
+
+### 4. Final Tournament Result ###
+
+```python
+--- FINAL RESULT ---
+
+Rounds won by User   : 2
+Rounds won by System : 2
+Draw Rounds          : 1
+
+MATCH RESULT : DRAW
+
+Final Wallet Balances:
+User Balance   : 6100
+System Balance : 700
+```
+
+---
+---
 
 
 
