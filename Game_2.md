@@ -5,7 +5,7 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 
 ---
 
-## *Game Rules and Requirements ##
+## *Game Rules and Requirements* ##
 ### 1. Symbols and Slots ###
  * The slot machine uses 7 symbols, represented using numbers and stored in a dictionary:
 
@@ -23,12 +23,12 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
     - `randint()`
     - `randrange()`
 
-## *2. Wallet System ##
-    - Both User and System have wallets (coin balance).
-    - Initial balance :
-        - User: 1000 coins
-        - System: 1000 coins
-    - All bets and winnings must update these wallets correctly.
+## *2. Wallet System* ##
+Both User and System have wallets (coin balance).
+Initial balance :
+User: 1000 coins
+System: 1000 coins
+All bets and winnings must update these wallets correctly.
 
 
 
