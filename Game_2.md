@@ -63,6 +63,23 @@ In this mode :
 
 ---
 
+## 5. Multi-Round Mode (Best of 5) ##
+In this mode :
+* The game runs exactly 5 rounds.
+* Each round follows the same rules as Single Spin Mode.
+* User places a bet in every round.
+* System places a new random bet every round.
+* Keep track of : 
+    * Rounds won by user
+    * Rounds won by system
+
+After 5 rounds : 
+* Declare the overall winner:
+    * User wins more rounds → User wins
+    * System wins more rounds → System wins
+    * Equal wins → Match Draw
+* Display final wallet balances of both user and system.
+
 
 
 
