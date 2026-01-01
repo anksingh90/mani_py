@@ -26,8 +26,8 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
 ## *2. Wallet System* ##
  * Both User and System have wallets (coin balance).
  * Initial balance :
-       - `User: 1000 coins`
-       - `System: 1000 coins`
+    - `User: 1000 coins`
+    - `System: 1000 coins`
  * All bets and winnings must update these wallets correctly.
 
 
