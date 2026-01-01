@@ -23,12 +23,47 @@ Design and implement a Casino Slot Machine game in Python where a user plays aga
     - `randint()`
     - `randrange()`
 
+---
+
 ## *2. Wallet System* ##
  * Both User and System have wallets (coin balance).
  * Initial balance :
     - `User: 1000 coins`
     - `System: 1000 coins`
  * All bets and winnings must update these wallets correctly.
+
+---
+
+## *3. Game Modes* ##
+The program must display a menu with the following options:
+1. Single Spin Mode
+2. Multi-Round Mode *(Best of 5)*
+3. Exit
+The menu must run in a loop until the user chooses to exit.
+
+---
+
+## *4. Single Spin Mode (User vs System)* ##
+In this mode :
+1. User enters a bet amount.
+2. System places a **random bet** based on its wallet.
+3. Both bets are **held temporarily**.
+4. User spins (3 symbols).
+5. System spins (3 symbols).
+6. Determine the winner:
+    - Higher winning amount wins the round.
+    - If both results are equal → *Draw*.
+7. Settlement rules:
+    - Winner receives both bets.
+    - In case of draw, **both bets are refunded**.
+8. Display:
+    - Slot results
+    - Round winner
+    - Updated wallets
+
+---
+
+
 
 
 
