@@ -86,10 +86,22 @@ After 5 rounds :
 
 | Condition | Winning Amount |
 | :--- | :--- |
-| - 3 identical symbols | Bet × 10 |
-| - 3 Sevens or 3 Jackpots | Bet × 50 |
-| - Any 2 identical symbols | Bet × 3 |
-| - No match | 0 |
+|  3 identical symbols | Bet × 10 |
+|  3 Sevens or 3 Jackpots | Bet × 50 |
+|  Any 2 identical symbols | Bet × 3 |
+|  No match | 0 |
+
+---
+
+## 7. System Betting Rules ##
+* System bet must:
+    * Be greater than or equal to a minimum bet (e.g., 10 coins)
+    * Not exceed its available balance
+    * Be chosen randomly
+* System should not bet more than `25% of its wallet` in one round.
+
+---
+
 
 
 
