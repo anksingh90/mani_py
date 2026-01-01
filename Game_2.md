@@ -86,10 +86,10 @@ After 5 rounds :
 
 | Condition | Winning Amount |
 | :--- | :--- |
-| 3 identical symbols | Bet × 10 |
-| 3 Sevens or 3 Jackpots | Bet × 50 |
-| Any 2 identical symbols | Bet × 3 |
-| No match | 0 |
+| * 3 identical symbols | Bet × 10 |
+| * 3 Sevens or 3 Jackpots | Bet × 50 |
+| * Any 2 identical symbols | Bet × 3 |
+| * No match | 0 |
 
 
 
