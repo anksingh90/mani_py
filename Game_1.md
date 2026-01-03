@@ -489,6 +489,8 @@ Use a dictionary to assign values to cards :
 
 ---
 
+deck = {2:'2', 3:'3', 4:'4', 5:'5', 6:'6', 7:'7', 8:'8', 9:'9', 10:'10', 11:'JACK',12:'QUEEN',13:'KING',14:'ACE'}
+
 ## Sample Output (Single Round) - 
 ```python
 Choose Game Mode:
