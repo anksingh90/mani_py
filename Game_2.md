@@ -1,4 +1,4 @@
-# 1. Programming Project: Casino Slot Machine (User vs System) #
+in# 1. Programming Project: Casino Slot Machine (User vs System) #
 
 ## Objective ##
 Design and implement a Casino Slot Machine game in Python where a user plays against the system. The game must use only basic Python concepts such as loops, conditional statements, lists, dictionaries, and random number generation.
@@ -251,6 +251,9 @@ System Balance : 700
 
 ---
 ---
+
+
+link : https://claude.ai/public/artifacts/bd6facd6-6474-417d-be57-86a5a757926f
 
 
 
