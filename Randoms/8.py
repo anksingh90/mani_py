@@ -9,7 +9,7 @@ sys_deck=[]
 user_deck=[]
 scoreofuser=0
 scoreofsys=0
-
+draw=0
 while True:         # generating system deck
     value=random.randint(2,14)
     if value not in sys_deck:
@@ -42,20 +42,30 @@ for round in range(5):
 
     ch_user = int(input('Enter the card you want to play (enter position) : '))-1
 
-    print(user_deck[ch_user])
-    print(sys_deck[ch_sys])
+    print("user",user_deck[ch_user])
+    print("system",sys_deck[ch_sys])
 
     # comparision between user and system 
     if user_deck[ch_user] > sys_deck[ch_sys]:
         print('user wins')
+        scoreofuser+=1
     elif user_deck[ch_user] < sys_deck[ch_sys]:
         print('sys wins')
+        scoreofsys+=1
     elif user_deck[ch_user] == sys_deck[ch_sys]:
         print('draw')
-
-    # result
-
+#Score after Round5:
     # remove cards played by user and system
-
+    sys_deck.pop(ch_sys)
+    user_deck.pop(ch_user)
 # main final scoring 
-
+print("Score after 5 rounds")
+print("user",scoreofuser)
+print("system",scoreofsys)
+print(draw)
+if scoreofuser>scoreofsys:
+    print("user wins!!")
+elif scoreofuser<scoreofsys:
+    print("system wins!!")
+else:
+    print("draw")   
