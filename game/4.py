@@ -12,7 +12,7 @@ print("press 2 to play multi round mode")
 print("press 3 to exit")
 
 ch=int(input("Enter your choice :"))
-points=[]
+points=0
 guess=[3, 3, 3, 3, 5]
 if ch==1:
     print("Rolling 5 dice..")
@@ -30,10 +30,13 @@ if ch==1:
 #guess[0]==guess[1] or guess[1]!=guess[2] or guess[2]!=guess[3] or guess[3]!=guess[4] or guess[4]!=guess[0]:
     # compare or check if any index is mataching !
 #print("do you want to Re-rolls your dice : y/n ")
-    if guess[0]==guess[1] or guess[1]==guess[2] or guess[2]==guess[3] or guess[3]==guess[4] or guess[4]==guess[0]: 
-       print(" JACKPOT! FIVE OF A KIND!")
+    if set(guess)=={1} or set(guess)=={2} or set(guess)=={3} or set(guess)=={4} or set(guess)=={5} or set(guess)=={6}:
+       print("current Hand:,Five of a Kind")
+       print("potential Score:,)
+
+    
+
        print("points :",500)
-        
     elif guess[0]==guess[1] or guess[0]!=guess[1]  or guess[1]==guess[2] or guess[1]!=guess[2]or guess[2]==guess[3] or guess[2]!=guess[3] or guess[3]==guess[4]  or guess[3]!=guess[4] or guess[4]==guess[0] or guess[4]!=guess[0] :
         print("points :",400)
         print("do you want to re-rolls your dice","yes" or "no")
@@ -42,7 +45,7 @@ if ch==1:
              pos=int(input("enter position you want to re-rolls"))
              guess1=random.randint(1,6)
         print("position",pos,"dice :",guess1)
-    elif guess[0]!=guess[1]!=guess[2] or guess[2]!=guess[3]!=guess[4]:
+    elif guess[0]==guess[1]==guess[2] or guess[2]==guess[3]==guess[4]:
         print("points :",400)
         print("do you want to re-rolls your dice","yes" or "no")
         pos=int(input("Enter position you want to re-rolls "))
