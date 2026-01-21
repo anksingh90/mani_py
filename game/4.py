@@ -7,15 +7,17 @@ print("press 3 to exit")
 
 ch=int(input("Enter your choice :"))
 points=0
-guess=[3, 3, 3, 3, 5]
-
+guess=[]
 for i in range(0,5):
     value=random.randint(1,6)
     guess.append(value)
 print(guess)
 
-if ch==1:
-    count={}
+while True:
+    round = 1 # checks the round of loop
+
+    if ch==1:
+        count={}
     for value in guess:
         count[value]=count.get(value,0)+1
     
@@ -25,20 +27,33 @@ if ch==1:
        print("potential Score:",points)
     
     elif 4 in count.values():
-       print("current Hand:,Five of a Kind")
+       print("current Hand:,Four of a Kind")
        points+=400
        print("potential Score:",points)
-       
-
-    elif guess[0]==guess[1]==guess[2] or guess[2]==guess[3]==guess[4]:
-        print("points :",400)
-        print("do you want to re-rolls your dice","yes" or "no")
-        pos=int(input("Enter position you want to re-rolls "))
-        print("Re-rolls of dice",pos)
-        guess1=random.randint(1,6)
-        print("position",pos,"dice :",guess1)
-        guess[pos].append(guess1)
-
-    elif guess[0]!=guess[1]!=guess[2]!=guess[3]!=guess[4]:
-        print("points :",0)
     
+    elif 3 in count.values() and 2 in count.values():
+        print("current Hand :,full house")
+        points+=300
+        print("potential score:",points) 
+        break # remove this break
+    elif 3 in count.values():
+        print("current Hand :,Three of a kind")
+        points+=150
+        print("potential score:",points) 
+        break # remove this break
+    elif 2 in count.values() and 2 in count.values():
+        print("current Hand :,two pair")
+        points+=100
+        print("potential score:",points) 
+        break # remove this break
+    elif 1 in count.values():
+        print("current Hand :,one pair")
+        points+=50
+        print("potential score:",points) 
+        break # remove this break
+    '''
+    if round == 3:
+        break       
+    else:
+        round = round + 1
+    '''
