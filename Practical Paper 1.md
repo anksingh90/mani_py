@@ -1,4 +1,3 @@
-# FundaClass Academy, Mahipalpur
 ## Class 11 | CS Paper | SET - 1
 
 ### 1. Generate the following patterns using nested loop:
